@@ -1,6 +1,6 @@
 ---
 name: claim-graph-paper-writer
-description: Transform scientific writing into an auditable claim graph, check evidence and logical relations, then reconstruct the approved graph into coherent academic prose. Use for paper/thesis drafting, discussion restructuring, argument checking, or revising AI-generated scientific text.
+description: Transform scientific writing into an auditable claim graph, check evidence and logical relations, then reconstruct the approved graph into coherent academic prose. Use for paper/thesis drafting, discussion restructuring, argument checking, or revising AI-generated scientific text.；中文触发：命题图写作、论证结构调整、论文逻辑重组；English triggers: claim graph, academic argument restructure
 ---
 
 # Claim Graph Paper Writer
@@ -515,3 +515,7 @@ The final goal is not merely fluent text.
 The final goal is:
 
 **auditable reasoning → author-approved logic → clear scientific prose**
+
+## Optional v3 research-group interface
+
+This Skill works independently. Only for a genuine cross-Skill task, read `references/research-group-interop-v3.md` on demand (relative to the Skill folder). Own **Extract atomic claims and their evidence/logic relations and reconstruct author-approved text**; do not take over **Changing the scientific claim or using unsupported evidence to make prose sound convincing**. A suggested next specialist is not a completed tool call; preserve evidence and version in a small handoff.
